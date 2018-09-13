@@ -1,0 +1,97 @@
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="styles/barrel.jpg" />
+
+    </div>
+</div>
+
+<div class="section grey darken-4">
+    <div class="container section scrollspy" id="about">
+        <h2 class="header row">About</h2>
+        <div class="row">
+            <div class="col s12">
+                <h4>OutRun Brewery info will go here.</h4>
+                <p>This will contain the bio of the brewery and the brewers. </p>
+                <br>
+                <div class="col s6">
+                    <div class="card horizontal small blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title"><h3>Ryan </h3></span>
+                            <div class="card-content">
+                                <p>content about Ryan</p>
+                            </div>
+                            <div class="card-image">
+                                <img src="" alt="Ryan">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="card horizontal small blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title"><h3>Josh</h3></span>
+                            <div class="card-content">
+                                <p>content about Josh</p>
+                            </div>
+                            <div class="card-image">
+                                <img src="" alt="Josh">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="styles/pour.jpg" />
+    </div>
+</div>
+
+<div class="section grey darken-4">
+    <div class="container section scrollspy" id="beers">
+        <h2 class="header row">Our Beers</h2>
+
+        <div class="row">
+            {{#each Beer}}
+            <div class="col s4">
+                <div class="card horizontal small blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title"><h3>{{this.beerName}}</h3></span>
+                        <h4>{{this.type}}</h4>
+                        <p>{{this.flavor}}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="styles/pour.jpg" />
+    </div>
+</div>
+
+
+<div class="section grey darken-4">
+    <div class="container section scrollspy" id="location">
+        <h2 class="header row">Location</h2>
+        <div class="row">
+            <div class="col s12">
+                <p>Map and address to come.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="styles/brewery.jpg" />
+    </div>
+</div>
